@@ -1,0 +1,5 @@
+# デフォルトの無視対象ファイル
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../JsonUtil\.idea/codestream.xml
