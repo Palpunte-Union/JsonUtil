@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+
+/**
+ * @author eight_y_88
+ */
 public class JsonObject {
 
     String value;
