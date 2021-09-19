@@ -53,7 +53,7 @@ public class JsonObject {
     }
 
     public String asString() {
-        return value.replace("\\\"", "${__double_q}").replace("\"", "").replace("${__double_q}", "\"");
+        return value.replace("\\\"", "${__double_quart}").replace("\"", "").replace("${__double_quart}", "\"");
     }
 
     public int asInt() {
@@ -91,7 +91,7 @@ public class JsonObject {
     }
 
     private void init(String v) {
-        String temp = v.replace("\\\"", "${__double_q}").replaceAll("\\s+","");
+        String temp = v.replace("\\\"", "${__double_quart}").replaceAll("\\s+","");
         temp = EraseSpace(temp);
         boolean list = false;
 
